@@ -1,0 +1,922 @@
+{
+    "drawflow": {
+        "drawflow": {
+            "Home": {
+                "data": {
+                    "1": {
+                        "id": 1,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722951928385\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722951928385\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722951928385\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722951928385\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722951928385', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722951928385')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": []
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "3",
+                                        "output": "input_1"
+                                    },
+                                    {
+                                        "node": "4",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": -50,
+                        "pos_y": 244
+                    },
+                    "2": {
+                        "id": 2,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722951984834\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722951984834\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722951984834\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722951984834\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722951984834', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722951984834')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": []
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "3",
+                                        "output": "input_1"
+                                    },
+                                    {
+                                        "node": "4",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": -50,
+                        "pos_y": 380
+                    },
+                    "3": {
+                        "id": 3,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952008990\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952008990\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952008990\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952008990\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952008990', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952008990')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "1",
+                                        "input": "output_1"
+                                    },
+                                    {
+                                        "node": "2",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "5",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 215,
+                        "pos_y": 245
+                    },
+                    "4": {
+                        "id": 4,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952021228\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952021228\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952021228\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952021228\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952021228', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952021228')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "1",
+                                        "input": "output_1"
+                                    },
+                                    {
+                                        "node": "2",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "6",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 216,
+                        "pos_y": 382
+                    },
+                    "5": {
+                        "id": 5,
+                        "name": "textNode",
+                        "data": {
+                            "name": "Champ Texte"
+                        },
+                        "class": "textTool",
+                        "html": "\n            <div class=\"textTool\" id=\"node-1722952077475\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952077475\" data-field=\"label\" \/>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "3",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "6",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 457.2307692307692,
+                        "pos_y": 237
+                    },
+                    "6": {
+                        "id": 6,
+                        "name": "textNode",
+                        "data": {
+                            "name": "Champ Texte"
+                        },
+                        "class": "textTool",
+                        "html": "\n            <div class=\"textTool\" id=\"node-1722952109034\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952109034\" data-field=\"label\" \/>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "5",
+                                        "input": "output_1"
+                                    },
+                                    {
+                                        "node": "4",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "7",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 701,
+                        "pos_y": 334
+                    },
+                    "7": {
+                        "id": 7,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952138575\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952138575\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952138575\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952138575\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952138575', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952138575')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "6",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "9",
+                                        "output": "input_1"
+                                    },
+                                    {
+                                        "node": "8",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 959,
+                        "pos_y": 226
+                    },
+                    "8": {
+                        "id": 8,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952214928\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952214928\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952214928\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952214928\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952214928', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952214928')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "7",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "10",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 1229.7692307692307,
+                        "pos_y": 203
+                    },
+                    "9": {
+                        "id": 9,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952239918\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952239918\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952239918\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952239918\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952239918', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952239918')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "7",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "11",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 1230,
+                        "pos_y": 350
+                    },
+                    "10": {
+                        "id": 10,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952284213\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952284213\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952284213\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952284213\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952284213', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952284213')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "8",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "11",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 1496,
+                        "pos_y": 180
+                    },
+                    "11": {
+                        "id": 11,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952706391\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952706391\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952706391\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952706391\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952706391', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952706391')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "10",
+                                        "input": "output_1"
+                                    },
+                                    {
+                                        "node": "9",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "12",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 1759.2307692307693,
+                        "pos_y": 258
+                    },
+                    "12": {
+                        "id": 12,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952752821\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952752821\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952752821\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952752821\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952752821', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952752821')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "11",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "13",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 2030,
+                        "pos_y": 192.76923076923077
+                    },
+                    "13": {
+                        "id": 13,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952795999\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952795999\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952795999\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952795999\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952795999', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952795999')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "12",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "14",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 2290,
+                        "pos_y": 208
+                    },
+                    "14": {
+                        "id": 14,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952839977\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952839977\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952839977\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952839977\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952839977', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952839977')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "13",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "15",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 2553,
+                        "pos_y": 159
+                    },
+                    "15": {
+                        "id": 15,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952948039\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952948039\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952948039\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952948039\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952948039', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952948039')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "14",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "16",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 2806,
+                        "pos_y": 223.76923076923077
+                    },
+                    "16": {
+                        "id": 16,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722952990934\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722952990934\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722952990934\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722952990934\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722952990934', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722952990934')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "15",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "17",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 3065,
+                        "pos_y": 226
+                    },
+                    "17": {
+                        "id": 17,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722953026860\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722953026860\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722953026860\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722953026860\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722953026860', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722953026860')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "16",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "18",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 3329,
+                        "pos_y": 229
+                    },
+                    "18": {
+                        "id": 18,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722953111800\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722953111800\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722953111800\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722953111800\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722953111800', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722953111800')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "17",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "19",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 3582,
+                        "pos_y": 247
+                    },
+                    "19": {
+                        "id": 19,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722953152826\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722953152826\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722953152826\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722953152826\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722953152826', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722953152826')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "18",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "20",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 3836.5,
+                        "pos_y": 252.5
+                    },
+                    "20": {
+                        "id": 20,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722953186119\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722953186119\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722953186119\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722953186119\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722953186119', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722953186119')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "19",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "21",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 4098,
+                        "pos_y": 250
+                    },
+                    "21": {
+                        "id": 21,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722953213026\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722953213026\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722953213026\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722953213026\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722953213026', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722953213026')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "20",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "22",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 4355.5,
+                        "pos_y": 250
+                    },
+                    "22": {
+                        "id": 22,
+                        "name": "selectMultipleNode",
+                        "data": {
+                            "name": "Select Multiple"
+                        },
+                        "class": "selectMultipleTool",
+                        "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1722953238283\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1722953238283\" data-field=\"label\" \/>\n                <div id=\"options-container-node-1722953238283\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1722953238283\" data-option-index=\"0\" \/>\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1722953238283', 0)\" title=\"Supprimer la ligne\"><\/i>\n                    <\/div>\n                <\/div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1722953238283')\" title=\"Ajouter une ligne\"><\/i>\n            <\/div>\n        ",
+                        "typenode": false,
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "21",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": []
+                            }
+                        },
+                        "pos_x": 4623,
+                        "pos_y": 246
+                    }
+                }
+            }
+        }
+    },
+    "nodeValues": {
+        "node-1722951928385": {
+            "type": "selectMultipleNode",
+            "label": "Genre",
+            "options": [
+                "Homme"
+            ]
+        },
+        "node-1722951984834": {
+            "type": "selectMultipleNode",
+            "label": "Genre",
+            "options": [
+                "Femme"
+            ]
+        },
+        "node-1722952008990": {
+            "type": "selectMultipleNode",
+            "label": "Code informatique",
+            "options": [
+                "Oui"
+            ]
+        },
+        "node-1722952021228": {
+            "type": "selectMultipleNode",
+            "label": "Code informatique",
+            "options": [
+                "Non"
+            ]
+        },
+        "node-1722952077475": {
+            "type": "textNode",
+            "label": "Code Informatique",
+            "text": ""
+        },
+        "node-1722952109034": {
+            "type": "textNode",
+            "label": "Marque & R\u00e9f\u00e9rence",
+            "text": ""
+        },
+        "node-1722952138575": {
+            "type": "selectMultipleNode",
+            "label": "Type",
+            "options": [
+                "Quartz",
+                "Automatique",
+                "M\u00e9canique \u00e0 remontage manuel",
+                "Solaire",
+                "Kinetic",
+                "Connect\u00e9e"
+            ]
+        },
+        "node-1722952214928": {
+            "type": "selectMultipleNode",
+            "label": "Affichage",
+            "options": [
+                "Analogique"
+            ]
+        },
+        "node-1722952239918": {
+            "type": "selectMultipleNode",
+            "label": "Affichage",
+            "options": [
+                "Anadigital",
+                "Digital"
+            ]
+        },
+        "node-1722952284213": {
+            "type": "selectMultipleNode",
+            "label": "Compl\u00e9ment affichage",
+            "options": [
+                "Chronographe",
+                "Simple"
+            ]
+        },
+        "node-1722952706391": {
+            "type": "selectMultipleNode",
+            "label": "Matiere boitier",
+            "options": [
+                "M\u00e9tal",
+                "Autre"
+            ]
+        },
+        "node-1722952752821": {
+            "type": "selectMultipleNode",
+            "label": "Forme Boitier",
+            "options": [
+                "Tonneau",
+                "Rectangle",
+                "Rond",
+                "Ovale",
+                "Carr\u00e9",
+                "Autre"
+            ]
+        },
+        "node-1722952795999": {
+            "type": "selectMultipleNode",
+            "label": "Matiere bracelet",
+            "options": [
+                "Cuir",
+                "M\u00e9tal",
+                "Tissu",
+                "Silicone",
+                "Autre"
+            ]
+        },
+        "node-1722952839977": {
+            "type": "selectMultipleNode",
+            "label": "Couleur bracelet",
+            "options": [
+                "Rouge",
+                "Bleu",
+                "Vert",
+                "Marron",
+                "Noir",
+                "Blanc",
+                "Multi",
+                "Autre"
+            ]
+        },
+        "node-1722952948039": {
+            "type": "selectMultipleNode",
+            "label": "Boitier",
+            "options": [
+                "RAS",
+                "Micro-ray\u00e9",
+                "Ray\u00e9",
+                "Tr\u00e8s ray\u00e9"
+            ]
+        },
+        "node-1722952990934": {
+            "type": "selectMultipleNode",
+            "label": "Bracelet",
+            "options": [
+                "RAS",
+                "Micro-ray\u00e9",
+                "Ray\u00e9",
+                "Tr\u00e8s-ray\u00e9"
+            ]
+        },
+        "node-1722953026860": {
+            "type": "selectMultipleNode",
+            "label": "Verre",
+            "options": [
+                "RAS",
+                "Micro-ray\u00e9",
+                "Ray\u00e9",
+                "Ebr\u00e9ch\u00e9"
+            ]
+        },
+        "node-1722953111800": {
+            "type": "selectMultipleNode",
+            "label": "Index",
+            "options": [
+                "RAS",
+                "Tomb\u00e9 partiellement",
+                "Tomb\u00e9s compl\u00e9tement"
+            ]
+        },
+        "node-1722953152826": {
+            "type": "selectMultipleNode",
+            "label": "Aiguille",
+            "options": [
+                "RAS",
+                "Dysfonctionne",
+                "Hors services"
+            ]
+        },
+        "node-1722953186119": {
+            "type": "selectMultipleNode",
+            "label": "Fermoir",
+            "options": [
+                "RAS",
+                "Dysfonctionne",
+                "Hors services"
+            ]
+        },
+        "node-1722953213026": {
+            "type": "selectMultipleNode",
+            "label": "Tige couronne",
+            "options": [
+                "RAS",
+                "Dysfonctionne",
+                "Hors services"
+            ]
+        },
+        "node-1722953238283": {
+            "type": "selectMultipleNode",
+            "label": "Bouton poussoir",
+            "options": [
+                "RAS",
+                "Dysfonctionne",
+                "Hors services"
+            ]
+        }
+    }
+}

@@ -1,0 +1,449 @@
+{
+  "drawflow": {
+    "drawflow": {
+      "Home": {
+        "data": {
+          "1": {
+            "id": 1,
+            "data": {
+              "name": "Select Multiple"
+            },
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723129368728\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129368728\" data-field=\"label\" />\n                <div id=\"options-container-node-1723129368728\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723129368728\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723129368728', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723129368728')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "name": "selectMultipleNode",
+            "class": "selectMultipleTool",
+            "pos_x": 54,
+            "pos_y": 105,
+            "inputs": {
+              "input_1": {
+                "connections": []
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "3",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "2": {
+            "id": 2,
+            "data": {
+              "name": "Select Multiple"
+            },
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723129385299\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129385299\" data-field=\"label\" />\n                <div id=\"options-container-node-1723129385299\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723129385299\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723129385299', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723129385299')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "name": "selectMultipleNode",
+            "class": "selectMultipleTool",
+            "pos_x": 52,
+            "pos_y": 237,
+            "inputs": {
+              "input_1": {
+                "connections": []
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "4",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "3": {
+            "id": 3,
+            "data": {
+              "name": "Champ Texte"
+            },
+            "html": "\n            <div class=\"textTool\" id=\"node-1723129396886\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129396886\" data-field=\"label\" />\n            </div>\n        ",
+            "name": "textNode",
+            "class": "textTool",
+            "pos_x": 370,
+            "pos_y": 128,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "1",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "4",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "4": {
+            "id": 4,
+            "data": {
+              "name": "Select Multiple"
+            },
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723129414108\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129414108\" data-field=\"label\" />\n                <div id=\"options-container-node-1723129414108\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723129414108\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723129414108', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723129414108')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "name": "selectMultipleNode",
+            "class": "selectMultipleTool",
+            "pos_x": 644,
+            "pos_y": 148,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "3",
+                    "input": "output_1"
+                  },
+                  {
+                    "node": "2",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "5",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "5": {
+            "id": 5,
+            "data": {
+              "name": "Select Multiple"
+            },
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723129450084\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129450084\" data-field=\"label\" />\n                <div id=\"options-container-node-1723129450084\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723129450084\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723129450084', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723129450084')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "name": "selectMultipleNode",
+            "class": "selectMultipleTool",
+            "pos_x": 925,
+            "pos_y": 103,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "4",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "6",
+                    "output": "input_1"
+                  },
+                  {
+                    "node": "7",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "6": {
+            "id": 6,
+            "data": {
+              "name": "Select Multiple"
+            },
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723129489076\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129489076\" data-field=\"label\" />\n                <div id=\"options-container-node-1723129489076\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723129489076\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723129489076', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723129489076')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "name": "selectMultipleNode",
+            "class": "selectMultipleTool",
+            "pos_x": 1252,
+            "pos_y": 104,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "5",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "8",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "7": {
+            "id": 7,
+            "data": {
+              "name": "Select Multiple"
+            },
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723129497395\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129497395\" data-field=\"label\" />\n                <div id=\"options-container-node-1723129497395\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723129497395\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723129497395', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723129497395')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "name": "selectMultipleNode",
+            "class": "selectMultipleTool",
+            "pos_x": 1253,
+            "pos_y": 237,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "5",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "10",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "8": {
+            "id": 8,
+            "data": {
+              "name": "Select Multiple"
+            },
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723129521917\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129521917\" data-field=\"label\" />\n                <div id=\"options-container-node-1723129521917\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723129521917\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723129521917', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723129521917')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "name": "selectMultipleNode",
+            "class": "selectMultipleTool",
+            "pos_x": 1548,
+            "pos_y": 41,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "6",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "9",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "9": {
+            "id": 9,
+            "data": {
+              "name": "Select Multiple"
+            },
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723129551960\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129551960\" data-field=\"label\" />\n                <div id=\"options-container-node-1723129551960\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723129551960\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723129551960', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723129551960')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "name": "selectMultipleNode",
+            "class": "selectMultipleTool",
+            "pos_x": 1819,
+            "pos_y": 38,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "8",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "10",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "10": {
+            "id": 10,
+            "data": {
+              "name": "Select Multiple"
+            },
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723129594288\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723129594288\" data-field=\"label\" />\n                <div id=\"options-container-node-1723129594288\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723129594288\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723129594288', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723129594288')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "name": "selectMultipleNode",
+            "class": "selectMultipleTool",
+            "pos_x": 2100,
+            "pos_y": 101,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "9",
+                    "input": "output_1"
+                  },
+                  {
+                    "node": "7",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "11",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "typenode": false
+          },
+          "11": {
+            "id": 11,
+            "name": "selectMultipleNode",
+            "data": {
+              "name": "Select Multiple"
+            },
+            "class": "selectMultipleTool",
+            "html": "\n            <div class=\"selectMultipleTool\" id=\"node-1723183946616\">\n                <input type=\"text\" placeholder=\"Label\" data-node-id=\"node-1723183946616\" data-field=\"label\" />\n                <div id=\"options-container-node-1723183946616\">\n                    <div class=\"option-item\">\n                        <input type=\"text\" value=\"Entrez votre texte\" data-node-id=\"node-1723183946616\" data-option-index=\"0\" />\n                        <i class=\"bi bi-trash ms-2\" onclick=\"removeOption('node-1723183946616', 0)\" title=\"Supprimer la ligne\"></i>\n                    </div>\n                </div>\n                <i class=\"bi bi-plus\" onclick=\"addOption('node-1723183946616')\" title=\"Ajouter une ligne\"></i>\n            </div>\n        ",
+            "typenode": false,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "10",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": []
+              }
+            },
+            "pos_x": 2394,
+            "pos_y": 84
+          }
+        }
+      }
+    }
+  },
+  "nodeValues": {
+    "node-1723129368728": {
+      "type": "selectMultipleNode",
+      "label": "Code informatique",
+      "options": [
+        "Oui"
+      ]
+    },
+    "node-1723129385299": {
+      "type": "selectMultipleNode",
+      "label": "Code informatique",
+      "options": [
+        "Non"
+      ]
+    },
+    "node-1723129396886": {
+      "type": "textNode",
+      "label": "Code informatique"
+    },
+    "node-1723129414108": {
+      "type": "selectMultipleNode",
+      "label": "Type matière",
+      "options": [
+        "OR 750",
+        "OR 375",
+        "ARGENT"
+      ]
+    },
+    "node-1723129450084": {
+      "type": "selectMultipleNode",
+      "label": "Couleur matière",
+      "options": [
+        "Rose",
+        "Jaune",
+        "Bicolore",
+        "Blanc",
+        "Multi"
+      ]
+    },
+    "node-1723129489076": {
+      "type": "selectMultipleNode",
+      "label": "Ornement",
+      "options": [
+        "Oui"
+      ]
+    },
+    "node-1723129497395": {
+      "type": "selectMultipleNode",
+      "label": "Ornement",
+      "options": [
+        "Non"
+      ]
+    },
+    "node-1723129521917": {
+      "type": "selectMultipleNode",
+      "label": "Type ornement",
+      "options": [
+        "Perle(s)",
+        "Pierre(s)"
+      ]
+    },
+    "node-1723129551960": {
+      "type": "selectMultipleNode",
+      "label": "Couleur(s)",
+      "options": [
+        "Blanc",
+        "Rouge"
+      ]
+    },
+    "node-1723129594288": {
+      "label": "Couleur(s) pierre(s)",
+      "type": "selectMultipleNode",
+      "options": [
+        "Solitaire",
+        "Multi-pierre",
+        "Autre"
+      ]
+    },
+    "node-1723183946616": {
+      "label": "Complement famille",
+      "type": "selectMultipleNode",
+      "options": [
+        "Ange",
+        "Saint christophe",
+        "Vierge",
+        "Croix",
+        "Autre"
+      ]
+    }
+  }
+}
